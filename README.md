@@ -1,6 +1,6 @@
 # MIMO-SAR × Camera Fusion — Paper List (2024–2026)
 
-101 papers from CVPR · ICCV · ECCV · NeurIPS · ICML · AAAI · ACM MM, 2024–2026.
+110 papers from CVPR · ICCV · ECCV · NeurIPS · ICML · AAAI · ACM MM, 2024–2026.
 
 **Finding:** zero MIMO-SAR papers. SAR shows up as a downstream modality (detection, segmentation, generation), never as an imaging problem (focusing, autofocus, array calibration).
 
@@ -12,7 +12,7 @@
 
 ## Contents
 
-[CVPR (39)](#cvpr) · [ICCV (11)](#iccv) · [ECCV (8)](#eccv) · [NeurIPS (11)](#neurips) · [ICML (1)](#icml) · [AAAI (25)](#aaai) · [ACM MM (6)](#acm-mm)
+[CVPR (40)](#cvpr) · [ICCV (11)](#iccv) · [ECCV (8)](#eccv) · [NeurIPS (11)](#neurips) · [ICML (5)](#icml) · [AAAI (25)](#aaai) · [ACM MM (10)](#acm-mm)
 
 ---
 
@@ -45,7 +45,7 @@
 - [V2X-R: Cooperative LiDAR-4D Radar Fusion with Denoising Diffusion for 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2025/html/Huang_V2X-R_Cooperative_LiDAR-4D_Radar_Fusion_with_Denoising_Diffusion_for_3D_CVPR_2025_paper.html)
 
 
-### 2026 (22)
+### 2026 (23)
 
 - [AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception](https://openaccess.thecvf.com/content/CVPR2026/html/Park_AdaRadar_Rate_Adaptive_Spectral_Compression_for_Radar-based_Perception_CVPR_2026_paper.html)
 - [DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR](https://openaccess.thecvf.com/content/CVPR2026/html/Cho_DSERT-RoLL_Robust_Multi-Modal_Perception_for_Diverse_Driving_Conditions_with_Stereo_CVPR_2026_paper.html)
@@ -68,6 +68,7 @@
 - [RPGFusion: 4D Radar Prior-Guided Multi-Modal Fusion for 3D Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Qiu_RPGFusion_4D_Radar_Prior-Guided_Multi-Modal_Fusion_for_3D_Detection_CVPR_2026_paper.html)
 - ★ [SARMAE: Masked Autoencoder for SAR Representation Learning](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_SARMAE_Masked_Autoencoder_for_SAR_Representation_Learning_CVPR_2026_paper.html)
 - [Seeing through boxes: Non-Line-of-Sight 3D Reconstruction from Radar Signals](https://openaccess.thecvf.com/content/CVPR2026/html/Lu_Seeing_through_boxes_Non-Line-of-Sight_3D_Reconstruction_from_Radar_Signals_CVPR_2026_paper.html)
+- [Underground Plant Exploration: Non-Destructive 3D Root Assessment with GPR Based on Point Graph Neural Network](https://openaccess.thecvf.com/content/CVPR2026/html/Zhou_Underground_Plant_Exploration_Non-Destructive_3D_Root_Assessment_with_GPR_Based_CVPR_2026_paper.html)
 - [X-band Radar Non-Line-of-Sight Imaging](https://openaccess.thecvf.com/content/CVPR2026/html/Du_X-band_Radar_Non-Line-of-Sight_Imaging_CVPR_2026_paper.html)
 
 
@@ -136,6 +137,14 @@ _CCF-B, kept for the CV-trio scope._
 - ★ [Gamma Distribution PCA-Enhanced Feature Learning for Angle-Robust SAR Target Recognition](https://proceedings.mlr.press/v267/)
 
 
+### 2026 (4)
+
+- [Cardio-mmFlow: A Gaussian-Prior-Free Physics-Informed Flow Matching Framework for Electrocardiogram to mmWave Radar Synthesis](https://proceedings.mlr.press/v306/liu26ey.html)
+- [Doppler Prompting for Stable mmWave-based Human Pose Estimation](https://proceedings.mlr.press/v306/zheng26g.html)
+- [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://proceedings.mlr.press/v306/liao26e.html)
+- [Weakly Supervised Cross-Modal Learning for 4D Radar Scene Flow Estimation](https://proceedings.mlr.press/v306/fu26r.html)
+
+
 ## AAAI
 
 
@@ -193,12 +202,22 @@ _CCF-B, kept for the CV-trio scope._
 - [Venus: Generating Large-scale mmWave Radar Data via Few 2D Videos for Gesture Recognition While Lying Down](https://doi.org/10.1145/3746027.3755399)
 
 
+### 2026 (4)
+
+- [Cross-Modal Generation: From Commodity WiFi to High-Fidelity mmWave and RFID Sensing](https://doi.org/10.1145/3767308.3836022)
+- [ElevC2F: Elevation-Aware Coarse-to-Fine Fusion of 4D Radar and Camera for 3D Object Detection](https://doi.org/10.1145/3767308.3836599)
+- [RemoPhysEmo: A Multimodal Emotion Dataset with Remotely Sensed Physiological Signals via Video and Radar](https://doi.org/10.1145/3767308.3838666)
+- [SPRFusion: Semantic and Physics-driven Robust Radar-Camera Fusion for 3D Object Detection](https://doi.org/10.1145/3767308.3835982)
+
+
 ---
 
 ## Notes
 
-- Snapshot: 2026-11-04. CVPR/ICCV/ECCV/NeurIPS/ICML scanned at title level; AAAI/ACM MM/ACL via keyword search.
-- ACL returned no radar/SAR papers; IJCAI excluded by scope; ICLR is not a CCF-A venue.
+- Snapshot: 2026-11-06.
+- CVPR / ICCV / ECCV / NeurIPS / ICML: full title scan (31,008 + 6,552 = 37,560 titles).
+- AAAI: full Crossref harvest by ISSN (11,273 records, 2024+). ACM MM: Crossref proceedings 2024–2026. ACL: no radar/SAR papers.
+- ECCV 2026 is not yet indexed by ECVA; IJCAI excluded by scope; ICLR is not a CCF-A venue.
 - "MIMO-SAR = 0" refers to these venues only. The topic lives in IEEE TGRS/TAES/TSP and at IGARSS/EUSAR.
 
 ## Contributing
