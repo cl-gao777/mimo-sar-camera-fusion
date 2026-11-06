@@ -99,7 +99,8 @@ Six papers that define the current frontier, one per direction:
 │   ├── by-venue.md                 # every paper, grouped by venue and year
 │   ├── by-venue.xlsx               # same, filterable
 │   ├── papers.csv                  # flat table: conference, year, type, title, url
-│   └── five-directions-matrix.xlsx # venue × direction coverage matrix
+│   ├── five-directions-matrix.xlsx # venue × direction coverage matrix
+│   └── reading-list.md             # recommended reading, 16 papers with notes (Chinese)
 ├── bib/
 │   └── mimo-sar-2024-2026.bib      # 21 BibTeX entries, official CVF metadata
 ├── reports/
