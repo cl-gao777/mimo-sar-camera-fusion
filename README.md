@@ -1,18 +1,18 @@
 # MIMO-SAR × Camera Fusion — Paper List (2024–2026)
 
-110 papers from CVPR · ICCV · ECCV · NeurIPS · ICML · AAAI · ACM MM, 2024–2026.
+204 papers from CVPR · ICCV · ECCV · NeurIPS · ICML · AAAI · ACM MM · ICRA · IROS, 2024–2026.
 
-**Finding:** zero MIMO-SAR papers. SAR shows up as a downstream modality (detection, segmentation, generation), never as an imaging problem (focusing, autofocus, array calibration).
+**Finding:** zero MIMO-SAR imaging papers. SAR appears as a downstream modality (detection, segmentation, generation), never as an imaging problem. The closest existing work to camera-assisted MIMO radar is a near-field **MIMO radar ↔ optical depth sensor calibration** paper at IROS 2024.
 
-`★` marks the 19 SAR papers.
+`★` marks the 20 SAR/ISAR papers.
 
-**Start here:** [SOMA](https://ojs.aaai.org/index.php/AAAI/article/view/37939) · [DenoDet V2](https://ojs.aaai.org/index.php/AAAI/article/view/37761) · [DART](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_DART_Implicit_Doppler_Tomography_for_Radar_Novel_View_Synthesis_CVPR_2024_paper.html) · [RC-AutoCalib](https://openaccess.thecvf.com/content/CVPR2025/html/Luu_RC-AutoCalib_An_End-to-End_Radar-Camera_Automatic_Calibration_Network_CVPR_2025_paper.html) · [MM-OVSeg](https://openaccess.thecvf.com/content/CVPR2026/html/Wei_MM-OVSeg_Multimodal_Optical-SAR_Fusion_for_Open-Vocabulary_Segmentation_in_Remote_Sensing_CVPR_2026_paper.html)
+**Start here:** [SOMA](https://ojs.aaai.org/index.php/AAAI/article/view/37939) · [DenoDet V2](https://ojs.aaai.org/index.php/AAAI/article/view/37761) · [DART](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_DART_Implicit_Doppler_Tomography_for_Radar_Novel_View_Synthesis_CVPR_2024_paper.html) · [RC-AutoCalib](https://openaccess.thecvf.com/content/CVPR2025/html/Luu_RC-AutoCalib_An_End-to-End_Radar-Camera_Automatic_Calibration_Network_CVPR_2025_paper.html) · [MIMO radar–optical calibration](https://doi.org/10.1109/iros58592.2024.10801705) · [MM-OVSeg](https://openaccess.thecvf.com/content/CVPR2026/html/Wei_MM-OVSeg_Multimodal_Optical-SAR_Fusion_for_Open-Vocabulary_Segmentation_in_Remote_Sensing_CVPR_2026_paper.html)
 
 ---
 
 ## Contents
 
-[CVPR (40)](#cvpr) · [ICCV (11)](#iccv) · [ECCV (8)](#eccv) · [NeurIPS (11)](#neurips) · [ICML (5)](#icml) · [AAAI (25)](#aaai) · [ACM MM (10)](#acm-mm)
+[CVPR (40)](#cvpr) · [ICCV (11)](#iccv) · [ECCV (8)](#eccv) · [NeurIPS (11)](#neurips) · [ICML (5)](#icml) · [AAAI (25)](#aaai) · [ACM MM (10)](#acm-mm) · [ICRA (58)](#icra) · [IROS (36)](#iros)
 
 ---
 
@@ -210,14 +210,139 @@ _CCF-B, kept for the CV-trio scope._
 - [SPRFusion: Semantic and Physics-driven Robust Radar-Camera Fusion for 3D Object Detection](https://doi.org/10.1145/3767308.3835982)
 
 
+## ICRA
+
+_CCF-B robotics venue, added by request._
+
+
+### 2024 (20)
+
+- [Degradation Resilient LiDAR-Radar-Inertial Odometry](https://doi.org/10.1109/icra57147.2024.10611444)
+- [Diffusion-Based Point Cloud Super-Resolution for mmWave Radar Data](https://doi.org/10.1109/icra57147.2024.10611026)
+- [Do we need scan-matching in radar odometry?](https://doi.org/10.1109/icra57147.2024.10610666)
+- [Doppler-only Single-scan 3D Vehicle Odometry](https://doi.org/10.1109/icra57147.2024.10611199)
+- [Dynamic Occupancy Grids for Object Detection: A Radar-Centric Approach](https://doi.org/10.1109/icra57147.2024.10610514)
+- [Enhancing mmWave Radar Point Cloud via Visual-inertial Supervision](https://doi.org/10.1109/icra57147.2024.10610091)
+- [Less is More: Physical-Enhanced Radar-Inertial Odometry](https://doi.org/10.1109/icra57147.2024.10611471)
+- [LiRaFusion: Deep Adaptive LiDAR-Radar Fusion for 3D Object Detection](https://doi.org/10.1109/icra57147.2024.10611436)
+- [MTRadSSD: A Multi-Task Single-Stage Detector for Object Detection and Free Space Analysis in Radar Point Clouds *](https://doi.org/10.1109/icra57147.2024.10611324)
+- [Multi-Radar Inertial Odometry for 3D State Estimation using mmWave Imaging Radar](https://doi.org/10.1109/icra57147.2024.10611194)
+- [Odometry Estimation by Fusing Multiple Radar Sensors and an Inertial Measurement Unit](https://doi.org/10.1109/icra57147.2024.10610446)
+- [PillarGen: Enhancing Radar Point Cloud Density and Quality via Pillar-based Point Generation Network](https://doi.org/10.1109/icra57147.2024.10611144)
+- [Radar Tracker: Moving Instance Tracking in Sparse and Noisy Radar Point Clouds](https://doi.org/10.1109/icra57147.2024.10610198)
+- [Radar-Only Odometry and Mapping for Autonomous Vehicles](https://doi.org/10.1109/icra57147.2024.10610311)
+- [RadarCam-Depth: Radar-Camera Fusion for Depth Estimation with Learned Metric Scale](https://doi.org/10.1109/icra57147.2024.10610929)
+- [RaLF: Flow-based Global and Metric Radar Localization in LiDAR Maps](https://doi.org/10.1109/icra57147.2024.10610626)
+- [RaTrack: Moving Object Detection and Tracking with 4D Radar Point Cloud](https://doi.org/10.1109/icra57147.2024.10610368)
+- [RCM-Fusion: Radar-Camera Multi-Level Fusion for 3D Object Detection](https://doi.org/10.1109/icra57147.2024.10611449)
+- [Robust 3D Object Detection from LiDAR-Radar Point Clouds via Cross-Modal Feature Augmentation](https://doi.org/10.1109/icra57147.2024.10610775)
+- [Subsurface Feature-based Ground Robot/Vehicle Localization Using a Ground Penetrating Radar](https://doi.org/10.1109/icra57147.2024.10611579)
+
+
+### 2025 (24)
+
+- [4DRadDet: Cluster-Queried Enhanced 3D Object Detection with 4D Radar](https://doi.org/10.1109/icra55743.2025.11127889)
+- [AF-RLIO: Adaptive Fusion of Radar-LiDAR-Inertial Information for Robust Odometry in Challenging Environments](https://doi.org/10.1109/icra55743.2025.11128046)
+- [CAO-RONet: A Robust 4D Radar Odometry with Exploring More Information from Low-Quality Points](https://doi.org/10.1109/icra55743.2025.11128487)
+- [CRAB: Camera-Radar Fusion for Reducing Depth Ambiguity in Backward Projection Based View Transformation](https://doi.org/10.1109/icra55743.2025.11128369)
+- [CubeDN: Real-Time Drone Detection in 3D Space from Dual mmWave Radar Cubes](https://doi.org/10.1109/icra55743.2025.11127766)
+- [Digital Beamforming Enhanced Radar Odometry](https://doi.org/10.1109/icra55743.2025.11127292)
+- [Doppler Former: Velocity Supervision of Raw Radar Data](https://doi.org/10.1109/icra55743.2025.11127345)
+- [GaRLIO: Gravity Enhanced Radar-LiDAR-Inertial Odometry](https://doi.org/10.1109/icra55743.2025.11128334)
+- [Ground-Aware Automotive Radar Odometry](https://doi.org/10.1109/icra55743.2025.11128161)
+- [Ground-Optimized 4D Radar-Inertial Odometry Via Continuous Velocity Integration Using Gaussian Process](https://doi.org/10.1109/icra55743.2025.11127572)
+- [HeRCULES: Heterogeneous Radar Dataset in Complex Urban Environment for Multi-Session Radar SLAM](https://doi.org/10.1109/icra55743.2025.11128678)
+- [Human Activity Recognition by Using Enhanced Radar Point Cloud 2D Histograms and Doppler Feature Fusion](https://doi.org/10.1109/icra55743.2025.11128165)
+- [Introspective Loop Closure for SLAM with 4D Imaging Radar](https://doi.org/10.1109/icra55743.2025.11127330)
+- [mmDEAR: mmWave Point Cloud Density Enhancement for Accurate Human Body Reconstruction](https://doi.org/10.1109/icra55743.2025.11127877)
+- [Radar Teach and Repeat: Architecture and Initial Field Testing](https://doi.org/10.1109/icra55743.2025.11128412)
+- [Radar4VoxMap: Accurate Odometry from Blurred Radar Observations](https://doi.org/10.1109/icra55743.2025.11128118)
+- [RadarMask: A Novel End-to-End Sparse Millimeter-Wave Radar Sequence Panoptic Segmentation and Tracking Method](https://doi.org/10.1109/icra55743.2025.11128555)
+- [RLCNet: A Novel Deep Feature-Matching-Based Method for Online Target-Free Radar-LiDAR Calibration](https://doi.org/10.1109/icra55743.2025.11127342)
+- [Robust 4D Radar-Aided Inertial Navigation for Aerial Vehicles](https://doi.org/10.1109/icra55743.2025.11128496)
+- [Structure-Aware Radar-Camera Depth Estimation](https://doi.org/10.1109/icra55743.2025.11128760)
+- [Talk2Radar: Bridging Natural Language with 4D mmWave Radar for 3D Referring Expression Comprehension](https://doi.org/10.1109/icra55743.2025.11128399)
+- [TDFANet: Encoding Sequential 4D Radar Point Clouds Using Trajectory-Guided Deformable Feature Aggregation for Place Recognition](https://doi.org/10.1109/icra55743.2025.11127648)
+- [UniBEVFusion: Unified Radar-Vision Bevfusion for 3D Object Detection](https://doi.org/10.1109/icra55743.2025.11128067)
+- [Unleashing HyDRa: Hybrid Fusion, Depth Consistency and Radar for Unified 3D Perception](https://doi.org/10.1109/icra55743.2025.11127412)
+
+
+### 2026 (14)
+
+- [4D Radar Diffusion with Adaptive Visual-Aided Condition for Point Cloud Enhancement](https://doi.org/10.1109/icra57385.2026.11696452)
+- [4DRaL: Bridging 4D Radar with LiDAR for Place Recognition using Knowledge Distillation](https://doi.org/10.1109/icra57385.2026.11696222)
+- [CFEAR-Teach-and-Repeat: Fast and Accurate Radar-only Localization](https://doi.org/10.1109/icra57385.2026.11697231)
+- [Dr-PoGO: Direct Radar Pose-Graph Optimization](https://doi.org/10.1109/icra57385.2026.11696879)
+- [Fully Polar Coordinate Object Detection: A Constraint-Based Polar Bounding Box Approach for LiDAR and Scanning Radar](https://doi.org/10.1109/icra57385.2026.11696654)
+- [How IMU Drift Influences Multi-Radar Inertial Odometry for Ground Robots in Subterranean Terrains](https://doi.org/10.1109/icra57385.2026.11695852)
+- [MotionNet-PGA: MotionNet with Polar-Guided Attention for Moving Object Segmentation in Scanning Radar](https://doi.org/10.1109/icra57385.2026.11696301)
+- [MSDNet: Efficient 4D Radar Super-Resolution via Multi-Stage Distillation](https://doi.org/10.1109/icra57385.2026.11697541)
+- [Omnidirectional Solid-State mmWave Radar Perception for UAV Power Line Collision Avoidance](https://doi.org/10.1109/icra57385.2026.11696714)
+- [RaCo-SLAM: A Physics-Informed 4D Radar SLAM with Co-visibility Consistency Factor](https://doi.org/10.1109/icra57385.2026.11697519)
+- [RadarSFD: Single-Frame Diffusion with Pretrained Priors for Radar Point Clouds](https://doi.org/10.1109/icra57385.2026.11695739)
+- [SpaRC: Sparse Radar-Camera Fusion for 3D Object Detection](https://doi.org/10.1109/icra57385.2026.11696130)
+- [SRCF-UAV: Sparse Radar-Camera Fusion for 3D UAV Detection](https://doi.org/10.1109/icra57385.2026.11696672)
+- [View Synthesis and 6DoF Pose Estimation in mmWave Radar Neural Radiance Fields](https://doi.org/10.1109/icra57385.2026.11696279)
+
+
+## IROS
+
+_CCF-B robotics venue, added by request._
+
+
+### 2024 (18)
+
+- [Adaptive Visual-Aided 4D Radar Odometry Through Transformer-Based Feature Fusion](https://doi.org/10.1109/iros58592.2024.10802367)
+- [Advancements in Radar Odometry](https://doi.org/10.1109/iros58592.2024.10802141)
+- [AnytimeFusion: Parameter-free RGB Camera-Radar Sensor Fusion Algorithm in Complex Maritime Situations](https://doi.org/10.1109/iros58592.2024.10801864)
+- [ASY-VRNet: Waterway Panoptic Driving Perception Model based on Asymmetric Fair Fusion of Vision and 4D mmWave Radar](https://doi.org/10.1109/iros58592.2024.10802447)
+- [Augmenting Vision with Radar for All-weather Geo-localization without a Prior HD Map](https://doi.org/10.1109/iros58592.2024.10802744)
+- [Automatic Spatial Calibration of Near-Field MIMO Radar With Respect to Optical Depth Sensors](https://doi.org/10.1109/iros58592.2024.10801705)
+- [Autonomous Power Line Tracking with mmWave Radar](https://doi.org/10.1109/iros58592.2024.10802812)
+- [BEVCar: Camera-Radar Fusion for BEV Map and Object Segmentation](https://doi.org/10.1109/iros58592.2024.10802147)
+- [Co-RaL: Complementary Radar-Leg Odometry with 4-DoF Optimization and Rolling Contact](https://doi.org/10.1109/iros58592.2024.10801960)
+- [CR3DT: Camera-RADAR Fusion for 3D Detection and Tracking](https://doi.org/10.1109/iros58592.2024.10801848)
+- [CRPlace: Camera-Radar Fusion with BEV Representation for Place Recognition](https://doi.org/10.1109/iros58592.2024.10802267)
+- [DeRO: Dead Reckoning Based on Radar Odometry With Accelerometers Aided for Robot Localization](https://doi.org/10.1109/iros58592.2024.10801645)
+- ★ [NeRF-enabled Analysis-Through-Synthesis for ISAR Imaging of Small Everyday Objects with Sparse and Noisy UWB Radar Data](https://doi.org/10.1109/iros58592.2024.10801921)
+- [RaNDT SLAM: Radar SLAM Based on Intensity-Augmented Normal Distributions Transform](https://doi.org/10.1109/iros58592.2024.10802458)
+- [RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling](https://doi.org/10.1109/iros58592.2024.10801827)
+- [Road Boundary Estimation Using Sparse Automotive Radar Inputs](https://doi.org/10.1109/iros58592.2024.10802490)
+- [Roofus: Learning-based Robotic Moisture Mapping on Flat Rooftops with Ground Penetrating Radar](https://doi.org/10.1109/iros58592.2024.10802148)
+- [Tightly-Coupled Factor Graph Formulation For Radar-Inertial Odometry](https://doi.org/10.1109/iros58592.2024.10801945)
+
+
+### 2025 (18)
+
+- [Class-Aware PillarMix: Can Mixed Sample Data Augmentation Enhance 3D Object Detection with Radar Point Clouds?](https://doi.org/10.1109/iros60139.2025.11246852)
+- [CORENet: Cross-Modal 4D Radar Denoising Network with LiDAR Supervision for Autonomous Driving](https://doi.org/10.1109/iros60139.2025.11246433)
+- [Design and Development of a GPR-Equipped Robot for Full-space External Diseases Detection in Drainage Pipelines](https://doi.org/10.1109/iros60139.2025.11246503)
+- [ELMAR: Enhancing LiDAR Detection with 4D Radar Motion Awareness and Cross-modal Uncertainty](https://doi.org/10.1109/iros60139.2025.11246399)
+- [Impact of Temporal Delay on Radar-Inertial Odometry](https://doi.org/10.1109/iros60139.2025.11246946)
+- [Indoor FireRescue Radar: 4D Indoor Millimeter Wave Dataset and Analysis for Hazardous Environment Perception](https://doi.org/10.1109/iros60139.2025.11246924)
+- [Learning Point Correspondences In Radar 3D Point Clouds For Radar-Inertial Odometry](https://doi.org/10.1109/iros60139.2025.11246451)
+- [LGDD: Local-Global Synergistic Dual-Branch 3D Object Detection Using 4D Radar](https://doi.org/10.1109/iros60139.2025.11246504)
+- [mmWave Radar-Based Non-Line-of-Sight Pedestrian Localization at T-Junctions Utilizing Road Layout Extraction via Camera](https://doi.org/10.1109/iros60139.2025.11246461)
+- [NanoMVG: USV-Centric Low-Power Multi-Task Visual Grounding based on Prompt-Guided Camera and 4D mmWave Radar](https://doi.org/10.1109/iros60139.2025.11246532)
+- [R2LDM: An Efficient 4D Radar Super-Resolution Framework Leveraging Diffusion Model](https://doi.org/10.1109/iros60139.2025.11246739)
+- [RaGNNarok: A Light-Weight Graph Neural Network for Enhancing Radar Point Clouds on Unmanned Ground Vehicles](https://doi.org/10.1109/iros60139.2025.11245944)
+- [RDN: An Efficient Denoising Network for 4D Radar Point Clouds](https://doi.org/10.1109/iros60139.2025.11246274)
+- [REOcc: Camera-Radar Fusion with Radar Feature Enrichment for 3D Occupancy Prediction](https://doi.org/10.1109/iros60139.2025.11246246)
+- [RoCaRS: Robust Camera-Radar BEV Segmentation for Sensor Failure Scenarios](https://doi.org/10.1109/iros60139.2025.11246952)
+- [Simulating Automotive Radar with Lidar and Camera Inputs](https://doi.org/10.1109/iros60139.2025.11247276)
+- [VISC: mmWave Radar Scene Flow Estimation using Pervasive Visual-Inertial Supervision](https://doi.org/10.1109/iros60139.2025.11246830)
+- [VoxEKF-RIO: A 4D Radar Inertial Odometry Based on Incremental Voxel Map and Iterated Kalman Filter](https://doi.org/10.1109/iros60139.2025.11247427)
+
+
 ---
 
 ## Notes
 
 - Snapshot: 2026-11-06.
-- CVPR / ICCV / ECCV / NeurIPS / ICML: full title scan (31,008 + 6,552 = 37,560 titles).
-- AAAI: full Crossref harvest by ISSN (11,273 records, 2024+). ACM MM: Crossref proceedings 2024–2026. ACL: no radar/SAR papers.
-- ECCV 2026 is not yet indexed by ECVA; IJCAI excluded by scope; ICLR is not a CCF-A venue.
+- CVPR / ICCV / ECCV / NeurIPS / ICML: full title scan (37,560 titles).
+- AAAI: full Crossref harvest by ISSN (11,273 records). ACM MM: Crossref proceedings 2024–2026.
+- ICRA 2024–2026 / IROS 2024–2025: full proceedings harvest via Crossref (7,939 papers).
+- ECCV 2026 not yet indexed by ECVA; IJCAI excluded by scope; ICLR is not a CCF-A venue.
 - "MIMO-SAR = 0" refers to these venues only. The topic lives in IEEE TGRS/TAES/TSP and at IGARSS/EUSAR.
 
 ## Contributing
